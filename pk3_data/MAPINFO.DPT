@@ -1,0 +1,76 @@
+//COOP
+map GENCOOP1 "SLIGE"
+{
+	SKY1 = "SKY1"
+	next = "GENCOOP2"
+	music = "D_DEAD"
+}
+map GENCOOP2 "OBLIGE 0.81"
+{
+	SKY1 = "SKY1"
+	next = "GENCOOP3"
+	music = "D_ADRIAN"
+}
+map GENCOOP3 "OBLIGE 0.85"
+{
+	SKY1 = "SKY1"
+	next = "GENCOOP4"
+	music = "D_ADRIAN"
+}
+map GENCOOP4 "OBLIGE 3.57" // The Monumental Cathedral
+{
+	SKY1 = "SKY1"
+	next = "GENCOOP5"
+	music = "D_ADRIAN"
+}
+map GENCOOP5 "OBLIGE 4.28" // Occult Cooling Factory
+{
+	SKY1 = "SKY1"
+	next = "GENCOOP6"
+	music = "D_ADRIAN"
+}
+map GENCOOP6 "OBLIGE 6.20" // Inactive Platform
+{
+	SKY1 = "SKY1"
+	next = "GENCOOP7"
+	music = "D_ADRIAN"
+}
+map GENCOOP7 "OBLIGE 7.50" // Enter the Parallax Tower
+{
+	SKY1 = "SKY1"
+	next = "GENCOOP8"
+	music = "D_ADRIAN"
+}
+map GENCOOP8 "OBLIGE 7.55" // Overtime
+{
+	SKY1 = "SKY1"
+	next = "GENCOOP9"
+	music = "D_ADRIAN"
+}
+/* VERY WIP */ 
+map COOP2 "Nuclear Plant Unlimited"
+{
+	SKY1 = "SKY1"
+	next = "COOP3"
+	music = "D_DEAD"
+}
+map COOP3 "Memorial"
+{
+	SKY1 = "SKY1"
+	next = "COOP2"
+	music = "NOMUS"
+}
+// WIP HQ2
+map HQ2 "DAVID CITY"
+{
+	SKY1 = "SKY1"
+	music = "HQ2"
+	next = "HQ3"
+}
+// WIP HQ3
+map HQ3 "NIKITA CITY"
+{
+	SKY1 = "SKY1"
+	music = "MAP03"
+	next = "HQ1"
+}
