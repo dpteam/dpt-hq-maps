@@ -1,9 +1,46 @@
-//COOP
+// STANDART COOP
+map COOP1 "Zirconium Generation Plant"
+{
+	SKY1 = "SKY1"
+	next = "COOP2"
+	music = "D_KILWIL"
+}
+map COOP2 "Marine Base #197-003"
+{
+	SKY1 = "SKY1"
+	next = "COOP3"
+	music = "D_MUS3"
+}
+map COOP3 "Somebody Once Told Me"
+{
+	SKY1 = "SKY1"
+	next = "COOP4"
+	music = "D_INFINI"
+}
+map COOP4 "Enterway"
+{
+	SKY1 = "SKY1"
+	next = "COOP5"
+	music = "d_vrack"
+}
+map COOP5 "In a Trap"
+{
+	SKY1 = "SKY1"
+	next = "COOP6"
+	music = "MUS01"
+}
+map COOP6 "Exitway"
+{
+	SKY1 = "SKY1"
+	next = "GENCOOP1"
+	music = "MUSIC08"
+}
+// GENETATED COOP
 map GENCOOP1 "SLIGE"
 {
 	SKY1 = "SKY1"
 	next = "GENCOOP2"
-	music = "D_DEAD"
+	music = "D_SKELET"
 }
 map GENCOOP2 "OBLIGE 0.81"
 {
@@ -15,62 +52,90 @@ map GENCOOP3 "OBLIGE 0.85"
 {
 	SKY1 = "SKY1"
 	next = "GENCOOP4"
-	music = "D_ADRIAN"
+	music = "d_stat12"
 }
 map GENCOOP4 "OBLIGE 3.57" // The Monumental Cathedral
 {
 	SKY1 = "SKY1"
 	next = "GENCOOP5"
-	music = "D_ADRIAN"
+	music = "D_DEAD"
 }
 map GENCOOP5 "OBLIGE 4.28" // Occult Cooling Factory
 {
 	SKY1 = "SKY1"
 	next = "GENCOOP6"
-	music = "D_ADRIAN"
+	music = "d_sausag"
 }
 map GENCOOP6 "OBLIGE 6.20" // Inactive Platform
 {
 	SKY1 = "SKY1"
 	next = "GENCOOP7"
-	music = "D_ADRIAN"
+	music = "d_pain"
 }
 map GENCOOP7 "OBLIGE 7.50" // Enter the Parallax Tower
 {
 	SKY1 = "SKY1"
 	next = "GENCOOP8"
-	music = "D_ADRIAN"
+	music = "D_JP_AST"
 }
 map GENCOOP8 "OBLIGE 7.55" // Overtime
 {
 	SKY1 = "SKY1"
 	next = "GENCOOP9"
-	music = "D_ADRIAN"
+	music = "D_LOST"
 }
-/* VERY WIP */ 
-map COOP2 "Nuclear Plant Unlimited"
+// DEATHMATCH MAPS
+map HQDM1 "SSG Impressive"
 {
 	SKY1 = "SKY1"
-	next = "COOP3"
-	music = "D_DEAD"
+	next = "HQDM2"
+	music = "D_BEAST"
 }
-map COOP3 "Memorial"
+map HQDM2 "Big Outsider"
 {
 	SKY1 = "SKY1"
-	next = "COOP2"
-	music = "NOMUS"
+	next = "HQDM3"
+	music = "D_VRACK"
 }
-// WIP HQ2
-map HQ2 "DAVID CITY"
+map HQDM3 "Somebases"
 {
 	SKY1 = "SKY1"
-	music = "HQ2"
-	next = "HQ3"
+	next = "HQDM4"
+	music = "D_VOLCAN"
 }
-// WIP HQ3
-map HQ3 "NIKITA CITY"
+map HQDM4 "Dwanged E1M1"
 {
 	SKY1 = "SKY1"
-	music = "MAP03"
-	next = "HQ1"
+	next = "HQDM5"
+	music = "D_TRAIN"
+}
+map HQDM5 "Long Tick"
+{
+	SKY1 = "SKY1"
+	next = "HQDM6"
+	music = "D_THEF"
+}
+map HQDM6 "Metal Banana"
+{
+	SKY1 = "SKY1"
+	next = "HQDM7"
+	music = "D_STELTH"
+}
+map HQDM7 "Sead Dimple"
+{
+	SKY1 = "SKY1"
+	next = "HQDM8"
+	music = "D_SIGMA"
+}
+map HQDM8 "Jasper07"
+{
+	SKY1 = "SKY1"
+	next = "HQDM9"
+	music = "D_JASPER"
+}
+map HQDM9 "Polaris01"
+{
+	SKY1 = "SKY1"
+	next = "HQDM1"
+	music = "D_PWRMIL"
 }
