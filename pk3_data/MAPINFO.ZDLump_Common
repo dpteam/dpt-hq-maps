@@ -1,12 +1,32 @@
 episode HQARENA
 {
-	name = "HQ SANDBOX"
+	name = "Arena"
 	key = "2"
+}
+episode HQPIANO
+{
+	name = "Piano"
+	key = "3"
+}
+episode HQSNDBX1
+{
+	name = "Sandbox Maps"
+	key = "4"
+}
+episode COOP1
+{
+	name = "Cooperative Maps"
+	key = "5"
 }
 episode HQ_2KC1
 {
-	name = "HQ DM"
-	key = "3"
+	name = "Deathmatch Maps"
+	key = "6"
+}
+episode HQCTF1
+{
+	name = "CTF Maps"
+	key = "7"
 }
 // SANDBOX
 map HQARENA "Arena"
@@ -73,10 +93,10 @@ map COOP4 "Enterway"
 map COOP5 "In a Trap"
 {
 	SKY1 = "SKY1"
-	next = "COOP6"
+	next = "GENCOOP1" // COOP6 Currently disabled.
 	music = "MUS01"
 }
-map COOP6 "Exitway"
+map COOP6 "Exitway" // Terry Trap? -_-...
 {
 	SKY1 = "SKY1"
 	next = "GENCOOP1"
@@ -128,7 +148,7 @@ map GENCOOP7 "OBLIGE 7.50" // Enter the Parallax Tower
 map GENCOOP8 "OBLIGE 7.55" // Overtime
 {
 	SKY1 = "SKY1"
-	next = "GENCOOP9"
+	next = "COOP1" // GENCOOP9
 	music = "D_LOST"
 }
 // DEATHMATCH MAPS
@@ -147,7 +167,7 @@ map HQ_2KC2 "$2000$ Classic v2"
 map HQ_2KM "$2000$ Modern"
 {
 	SKY1 = "SKY1"
-	next = "HQCTF1"
+	next = "HQDM1"
 	music = "NOMUS"
 }
 map HQDM1 "SSG Impressive"
@@ -201,7 +221,7 @@ map HQDM8 "Jasper07"
 map HQDM9 "Polaris01"
 {
 	SKY1 = "SKY1"
-	next = "HQDM1"
+	next = "HQCTF1"
 	music = "D_PWRMIL"
 }
 // CTF
@@ -214,6 +234,6 @@ map HQCTF1 "de_aztec"
 map HQCTF2 "de_dust2x2"
 {
 	SKY1 = "SKY1"
-	next = "HQ1" // WORKER
+	next = "HQCTF1"
 	music = "ORIONERO"
 }

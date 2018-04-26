@@ -1,0 +1,140 @@
+{
+mapname = HQ_2KC1
+gamemode = deathmatch
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = Brutal_Player
+bot[1] = Brutal_Player
+bot[2] = Brutal_Player
+}
+{
+mapname = HQ_2KC2
+gamemode = deathmatch
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = Brutal_Player
+bot[1] = Brutal_Player
+bot[2] = Brutal_Player
+}
+{
+mapname = HQ_2KM
+gamemode = deathmatch
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = Brutal_Player
+bot[1] = Brutal_Player
+bot[2] = Brutal_Player
+}
+{
+mapname = HQDM1
+gamemode = deathmatch
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = Brutal_Player
+bot[1] = Brutal_Player
+bot[2] = Brutal_Player
+}
+{
+mapname = HQDM2
+gamemode = deathmatch
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = Brutal_Player
+bot[1] = Brutal_Player
+bot[2] = Brutal_Player
+}
+{
+mapname = HQDM3
+gamemode = deathmatch
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = Brutal_Player
+bot[1] = Brutal_Player
+bot[2] = Brutal_Player
+}
+{
+mapname = HQDM4
+gamemode = deathmatch
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = Brutal_Player
+bot[1] = Brutal_Player
+bot[2] = Brutal_Player
+}
+{
+mapname = HQDM5
+gamemode = deathmatch
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = Brutal_Player
+bot[1] = Brutal_Player
+bot[2] = Brutal_Player
+}
+{
+mapname = HQDM6
+gamemode = deathmatch
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = Brutal_Player
+bot[1] = Brutal_Player
+bot[2] = Brutal_Player
+}
+{
+mapname = HQDM7
+gamemode = deathmatch
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = Brutal_Player
+bot[1] = Brutal_Player
+bot[2] = Brutal_Player
+}
+{
+mapname = HQDM8
+gamemode = deathmatch
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = Brutal_Player
+bot[1] = Brutal_Player
+bot[2] = Brutal_Player
+}
+{
+mapname = HQDM9
+gamemode = deathmatch
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = Brutal_Player
+bot[1] = Brutal_Player
+bot[2] = Brutal_Player
+}
+{
+mapname = HQCTF1
+gamemode = ctf
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = Brutal_Player
+bot[1] = Brutal_Player
+bot[2] = Brutal_Player
+}
+{
+mapname = HQCTF2
+gamemode = ctf
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = Brutal_Player
+bot[1] = Brutal_Player
+bot[2] = Brutal_Player
+}
