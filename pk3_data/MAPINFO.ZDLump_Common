@@ -1,33 +1,3 @@
-episode HQARENA
-{
-	name = "Arena"
-	key = "3"
-}
-episode HQPIANO
-{
-	name = "Piano"
-	key = "4"
-}
-episode HQSNDBX1
-{
-	name = "Sandbox Maps"
-	key = "5"
-}
-episode COOP1
-{
-	name = "Cooperative Maps"
-	key = "6"
-}
-episode HQ_2KC1
-{
-	name = "Deathmatch Maps"
-	key = "7"
-}
-episode HQCTF1
-{
-	name = "CTF Maps"
-	key = "8"
-}
 // SANDBOX
 map HQARENA "Arena"
 {
